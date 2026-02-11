@@ -53,7 +53,7 @@ $Params = @{
     ExtensionType      = 'CustomScript'
     TypeHandlerVersion = '2.1'
     ProtectedSettings  = @{
-      fileUris = @('https://raw.githubusercontent.com/mate-academy/azure_task_13_vm_monitoring/main/install-app.sh')
+      fileUris = @('https://raw.githubusercontent.com/dimak20/azure_task_13_vm_monitoring/main/install-app.sh')
       commandToExecute = './install-app.sh'
     }
 }
