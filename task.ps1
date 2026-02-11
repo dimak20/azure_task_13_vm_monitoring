@@ -10,7 +10,7 @@ $sshKeyPublicKey = Get-Content "~/.ssh/id_rsa.pub"
 $publicIpAddressName = "linuxboxpip"
 $vmName = "matebox"
 $vmImage = "Ubuntu2204"
-$vmSize = "Standard_B2ats_v2"
+$vmSize = "Standard_B1s"
 $dnsLabel = "matetask" + (Get-Random -Count 1) 
 
 Write-Host "Creating a resource group $resourceGroupName ..."
